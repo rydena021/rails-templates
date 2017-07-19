@@ -92,7 +92,9 @@ HTML
 # README
 ########################################
 markdown_file_content = <<-MARKDOWN
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+Rails app generated using [rydena021/rails-templates](https://github.com/rydena021/rails-templates).
+
+Created by Anders Ryden.
 MARKDOWN
 file 'README.md', markdown_file_content, force: true
 
@@ -143,5 +145,5 @@ TXT
   ########################################
   git :init
   git add: '.'
-  git commit: "-m 'Initial commit with minimal template from https://github.com/lewagon/rails-templates'"
+  git commit: "-m 'Initial commit with minimal template from https://github.com/rydena021/rails-templates'"
 end
